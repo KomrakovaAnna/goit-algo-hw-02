@@ -16,7 +16,7 @@ def process_request():
         print(f"Processed: {request}")
 
 while True:
-    choice = input("Print generate to generate request, process to process requst, stop to quit >>> ").lower()
+    choice = input("Print generate to generate request, process to process request, stop to quit >>> ").lower()
     if choice == "generate":
         generate_request()
     elif choice == "process":
@@ -25,4 +25,4 @@ while True:
         print("Bye!")
         break
     else:
-        print("Incorrect input. Try again. Print generate to generate request, process to process requst, stop to quit")
+        print("Incorrect input. Try again. Print generate to generate request, process to process request, stop to quit")
