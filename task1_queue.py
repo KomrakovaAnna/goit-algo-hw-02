@@ -25,4 +25,4 @@ while True:
         print("Bye!")
         break
     else:
-        print("Incorrect input. Try again. Press 1 to generate request, 2 to process requst, Stop to quit")
+        print("Incorrect input. Try again. Print generate to generate request, process to process requst, stop to quit")
